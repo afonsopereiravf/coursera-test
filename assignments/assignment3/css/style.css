@@ -1,0 +1,84 @@
+body {
+	font-size: 16px;
+	color: #000;
+	background-color: #fff;
+}
+
+#header-nav {
+	background-color: #999999;
+	border-radius: 0;
+	border: 0;
+	color: white;
+}
+
+.navbar-default {
+	background-color: #999999;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #000;
+}
+
+.navbar-brand p {
+	color: #000;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.navbar-brand a:focus,
+.navbar-brand a:hover {
+	text-decoration: none;
+}
+
+.navbar-nav {
+	margin: 1px -15px !important;
+}
+
+#navbarToggle > span.icon-bar {
+	background-color: #000;
+}
+
+#nav-list a {
+	color: #000;
+	background-color: #fff;
+	text-align: center;
+	border: 2px solid #000;
+}
+
+#nav-list a:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+#home {
+	margin-bottom: 30px;
+}
+
+#home.text-center {
+	font-size: 30px;
+}
+
+.row {
+	position: relative;
+	float: left;
+}
+
+.row > div > article {
+	background-color: #999999;
+	text-align: justify;
+	margin-bottom: 20px;
+	padding: 12px;
+	color: black;
+}
+
+.text-center {
+	font-weight: bold;
+	margin-top: 0px;
+}
+
+@media (max-width: 767px) {
+	.row > div > article {
+		width: 80%;
+		margin: 20px auto 0;
+	}
+}
